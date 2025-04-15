@@ -1,0 +1,46 @@
+@font-face {
+    font-family: playwrite;
+    src: url(./src/fonts/PlaywriteAUSA-VariableFont_wght.ttf);
+}
+
+
+body {
+    font-family: playwrite;
+}
+
+.container-name {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: hsl(75, 98%, 49%);
+    box-shadow: 0 5px 15px 0 #44ff00;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    box-shadow: 0 10px 25px 0 #44ff00;
+}
+
+a {
+    text-decoration: none;
+    font-family: playwrite;
+    font-size: large;
+    color: black;
+    transition: 0.5s;
+}
+
+a:active {
+    color: hwb(104 0% 0%);
+}
